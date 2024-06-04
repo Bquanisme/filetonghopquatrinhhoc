@@ -1,0 +1,23 @@
+body{
+    div{
+        display: inline-block;
+        width: 37%;
+    }
+    .double-border {
+        border: 3px solid tomato;
+        padding: 2px;
+        width: 640px;
+    }
+    a:link {
+        color: tomato;
+    }
+    a:visited {
+        color: blue;
+    }
+    a:hover {
+        color: blueviolet;
+    }    
+    a:active {
+        color: aqua;
+    }
+} 
