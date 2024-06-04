@@ -1,0 +1,47 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr {
+    background-color: whitesmoke;
+  }
+tr:hover {
+    background-color: #ddd;
+  }
+  .image-container {
+    display:inline-block;
+    position: relative;
+    width: 30%;
+    height: 200px;
+    overflow: hidden;
+}
+
+.image-container img {
+    width: 100%;
+    height: 300px;
+    filter: opacity(0.5);
+    transition: filter 0.3s;
+}
+.bg1{
+    filter: opacity(0.5);
+    transition: filter 0.3s;
+}
+.bg2{
+    filter: opacity(0.5);
+    transition: filter 0.3s;
+}
+.bg3{
+    filter: opacity(0.5);
+    transition: filter 0.3s;
+}
+.image-container:hover img {
+    filter: opacity(1); 
+}
