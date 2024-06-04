@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+  }
+  li{
+    color: black;
+  }
+  a{
+    color: black;
+  }
+
+  h3{
+    font-size: 16pt;
+    color: black;
+  }
+  h2{
+    color: black;
+  }
+  ol{
+    border-style: dashed; 
+    border-width: 4px; 
+    border-color: blue;
+  }
+  i{
+    color: black;
+  }
