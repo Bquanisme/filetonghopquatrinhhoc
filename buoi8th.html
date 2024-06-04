@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kiểm tra chẵn lẻ</title>
+    <script>
+        function kiemTraChanLe() {
+            let x = prompt("Nhập số vào đây:");
+
+            if (isNaN(x)) {
+                alert("Đây không phải số, nhập lại.");
+                return;
+            }
+
+            x = Number(x);
+
+            if (x % 2 === 0) {
+                alert(`${x} là số chẵn`);
+            } else {
+                alert(`${x} là số lẻ`);
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="kiemTraChanLe()">Kiểm tra chẵn lẻ</button>
+</body>
+</html>
