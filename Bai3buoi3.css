@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  header {
+    width: 100%;
+    height: 40px;
+    background-color: #2fa1b3;
+  }
+  
+  header .header_item {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: space-between;
+    line-height: 40px;
+    color: white;
+  }
+  
+  header .header_item ul {
+    display: flex;
+  }
+  
+  header .header_item ul li {
+    padding: 0 7px;
+  }
+  
+  header .header_item ul .item_1:hover {
+    background-color: #267b88;
+  }
+  
+  header .header_item ul .item_2 a {
+    border-radius: 25px;
+    padding: 3px 3px;
+    border: white 1px solid;
+    font-size: 15px;
+  }
+  
+  header .header_item ul .item_1 {
+    font-size: 20px;
+    font-weight: 300;
+    border-left: white 1px solid;
+  }
+  
+  header .header_item ul li a {
+    color: white;
+  }
+  
+  header .header_item p {
+    line-height: 40px;
+    font-size: 25px;
+  }
+  
+  .main {
+    display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    width: auto;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  
+  .content_1 {
+    display: inline-table;
+    width: 70%;
+    overflow: hidden;
+  }
+  
+  .content_2 {
+    width: 25%;
+  }
+  
+  .content_1_item {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+  }
+  .content_1_item div {
+    width: 32%;
+    overflow: hidden;
+  }
+  
+  .content_1_item div img {
+    width: 100%;
+
+    transform: all 0.3s ease-in-out;
+  }
+  
+  img {
+    border-radius: 5px;
+  }
+  
+  .content_2 div {
+    display: flex;
+    padding-bottom: 15px;
+    overflow: hidden;
+  }
+  
+  .content_2 div img {
+    margin-right: 15px;
+    width: 90px;
+    height: 90px;
+    transform: all 0.3s ease-in-out;
+  }
+  
+  .content_1 img {
+    width: 100%;
+    transform: all 0.3s ease-in-out;
+  }
+  
+  @media screen and (max-width: 1360px) {
+    .main {
+      display: block;
+    }
+  
+    .content_2 {
+      width: auto;
+    }
+  
+    .content_1 {
+      width: auto;
+    }
+    header .header_item ul {
+      display: none;
+    }
+  }
+  
+  img:hover {
+    transform: scale(1.1);
+  }
+  
+  footer button {
+    background-color: aquamarine;
+    width: 90px;
+    height: 50px;
+    margin-left: 15%;
+    margin-top: 25px;
+  }
