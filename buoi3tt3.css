@@ -1,0 +1,36 @@
+body{
+    p{
+        padding: 20px;
+    }
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .class1{
+        background-color: rgb(226, 27, 93);
+    }
+    .header{
+        font-size: 22pt;
+        padding: 20px;
+        color: white;
+    }
+    .body2{
+        display: flex;
+        justify-content: space-between;
+    }
+    .col{
+        width: 32%;
+        height: 500px;
+        padding-left: 5px;
+        color: white;
+    }
+    @media (max-width: 600px) {
+        .body2{
+            flex-direction: column;
+        }
+        .col{
+            width: 100%;
+        }
+    }
+}
