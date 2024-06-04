@@ -1,0 +1,143 @@
+body{
+    style{
+        box-sizing: border-box;
+    }
+    b:hover{
+        background-color: #aea6cf;
+        border-style: solid;
+        border-color: #aea6cf;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+        outline: none;
+    }
+    .div2{
+        background-color: blueviolet; border-style: solid; border-color: blueviolet; border-width: 20px; border-radius: 20px;
+        text-align: center;
+    }
+    .div2:hover{
+        background-color: #aaa1df;
+        border-color: #aaa1df;
+    }
+    p, b, i, a, h1, h2, h3{
+        font-family: Roboto Slab;
+    }
+    .scroll-container-wrapper {
+        display: flex;
+        height: 300px; 
+      }
+    
+      .fixed-scroll-container {
+        width: 120px;
+        height: 625px;
+        overflow-x: hidden;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        margin-right: 5px;
+        position: sticky;
+        top: 0; 
+        justify-content: center;
+        text-align: center;
+        background-color: #efeff0;
+      }
+    .body3{
+        display: flex;
+        justify-content: space-between;
+    }
+    .co1{
+        width: 50%;
+        height: 500px;
+        padding: 25px;
+        color: rgb(10, 10, 10);
+    }
+    .co2{
+        width: 33.33%;
+        height: 500px;
+        padding: 1px;
+        padding-left: 5px;
+        color: black;
+    }
+    .co3{
+        width: 50%;
+        height: 130px;
+        padding: 25px;
+        color: rgb(10, 10, 10);
+    }
+      .scroll-container {
+        flex: 1; 
+        overflow-x: hidden;
+        overflow-y: scroll;
+        border: 1px solid #ccc;
+        height: 625px;
+        margin-left: 20px; 
+    }
+    .div1{
+        background-color: #efeff0;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+        height: 480px;
+    }
+    .div1:hover{
+        background-color: rgb(171, 153, 214);
+    }
+    .div1:active{
+        border-style: solid;
+        border-color: black;
+    }
+    .div3{
+        background-color: #efeff0;
+        border-radius: 20px;
+        border: 2px solid transparent;
+        transition: border-color 0.3s;
+        height: 150px;
+        border-style: solid; 
+        border-color: #efeff0; 
+    }
+    .div3:hover{
+        background-color: rgb(171, 153, 214);
+        border-color: rgb(171, 153, 214); 
+    }
+    .div3:active{
+        border-style: solid;
+        border-color: black;
+    }
+    .co4{
+        flex: 40%;
+        height: 300px;
+        padding: 25px;
+        color: rgb(10, 10, 10);
+    }
+    .co5{
+        flex: 20%;
+        height: 300px;
+        padding: 25px;
+        color: rgb(10, 10, 10);
+    }
+    .inline {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    @media (min-width: 1024px) {
+        
+        .fixed-scroll-container * {
+            display: none;
+        }
+        .co1{
+            width: 100%;
+        }
+        .co2{
+            width: 100%;
+        }
+        .co3{
+            width: 100%;
+        }
+        .co4{
+            width: 100%;
+        }
+        .co5{
+            width: 100%;
+        }
+    }
+}
