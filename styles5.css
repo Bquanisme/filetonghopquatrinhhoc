@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    }
+    
+.main {
+    padding: 60px;
+}
+.buoi1 {
+    padding: 20px;
+    display: flex;
+    gap: 30px;
+    font-size: 30px;
+}
+.buoi1 li {
+    list-style-type: none;
+}
+.buoi1 li a {
+    color: rgb(16, 7, 7);
+    text-decoration: none;
+}
+.buoi2 li a{
+    color: rgb(16, 7, 7);
+    text-decoration: none
+}
+.main h{
+ font-size: 90px;
+margin-left: 300px;
+}
+.image-container {
+    width: 300px;
+    height: 200px;
+    overflow: hidden; 
+    border: 2px solid #ddd;
+  }
+  .image-container img {
+    width: 100%;
+    height: auto; 
+    display: block; 
+  }
