@@ -1,0 +1,40 @@
+body{
+    .container{
+        font-family: 'Times New Roman', Times, serif;
+        justify-content: center;
+        box-sizing: border-box;
+    }
+    .header{
+        background-color: aquamarine;
+        text-align: center;
+        height: 50px; 
+        border-bottom: 2px solid #fff
+    }
+    .body1{
+        clear: both;
+        display: flex;
+        height: 30px;
+        justify-content: space-between;
+    }
+    .col{
+        width: 100%;
+        border-bottom: 1px solid #fff
+    }
+    .footer{
+        background-color: lawngreen;
+        text-align: center;
+        height: 50px; 
+    }
+    .column {
+        width: 100%;
+        padding-left: 5px;
+        position: fixed; 
+    }
+    
+    @media (min-width: 600px) {
+        .column {
+            width: 100%;
+            flex-direction: column;
+        }
+    }
+}
