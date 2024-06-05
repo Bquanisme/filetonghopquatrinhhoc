@@ -1,0 +1,327 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f5f5f5;
+}
+        
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+        
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}        
+.active {
+  background-color: #ce93e0;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+        
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+        
+.dropdown .dropbtn {
+  font-size: 17px;    
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+        
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+        
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+        
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: #555;
+  color: white;
+}
+        
+.dropdown-content a:hover {
+  background-color: #c3e6e6;
+  color: white;
+}
+        
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#home {
+  box-sizing: border-box;
+  background: rgb(243, 194, 174);
+  color: rgb(14, 13, 13);
+  height: 130vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+}
+
+#home h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+#home p {
+  font-size: 1.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+#about, #portfolio, #testimonials, #contact {
+  background: #fff;
+  margin: 2rem 0;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  color: #444;
+}
+
+.project, .testimonial {
+  background: #fafafa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 2rem;
+  transition: transform 0.3s;
+}
+
+img {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.project:hover, .testimonial:hover {
+  transform: scale(1.05);
+}
+
+#contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#contact-form input, #contact-form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#contact-form button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#contact-form button:hover {
+  background: #5abb2d;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.image-container {
+  align-items: center;
+  width: 560x;
+  height: 470px;
+  text-align: center;
+}
+.sc {
+  flex: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  height: 550px;
+  margin-left: 20px; 
+}
+
+.body3{
+  display: flex;
+  justify-content: space-between;
+}
+.body4{
+  display: flex;
+  justify-content: space-between;
+}
+.co1{
+  width: 50%;
+  height: 500px;
+  padding: 25px;
+  color: rgb(10, 10, 10);
+}
+.co2{
+  width: 100%;
+  height: 600px;
+  padding: 5px;
+  padding-left: 5px;
+  color: black;
+  background-color: yellow; border-style: solid; border-color: yellow; border-width: 20px; border-radius: 20px;
+  text-align: center;
+}
+
+.scroll-container {
+  flex: 1; 
+  border: 1px solid #ccc;
+  height: 800px;
+  margin-left: 20px; 
+}
+
+.div2{
+  background-color: greenyellow; border-style: solid; border-color: greenyellow; border-width: 20px; border-radius: 20px;
+  text-align: center;
+}
+.div2:hover{
+  background-color: #aaa1df;
+  border-color: #aaa1df;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+  outline: none;
+}
+
+.co2:hover{
+  background-color: #1ed85c;
+  border-color: #1ed85c;
+}
+
+
+@media (max-width: 768px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  #home{
+    width: 100%;
+    height: 100%;
+  }
+
+  #home h1 {
+      font-size: 1.5rem;
+  }
+
+  #home h2 {
+    font-size: 1.5rem;
+}
+
+  #home p {
+      font-size: 1rem;
+  }
+  .co1{
+    width: 200%;
+    height: 200%;
+  }
+  .co2{
+    width: 100%;
+    height: 150%;
+  }
+  .body4{
+    display: block;
+    width: 100%;
+  }
+  .project{
+    width: 100%;
+  }
+  .image-container img{
+    width: 100%;
+    height: 65%;
+  }
+}
