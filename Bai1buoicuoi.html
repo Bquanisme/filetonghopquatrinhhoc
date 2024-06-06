@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Đăng Ký</title>
+    <link rel="stylesheet" href="Bai1buoicuoi.css">
+</head>
+<body>
+    <form id="registrationForm">
+        <h2>FORM ĐĂNG KÝ</h2>
+        <label for="lastName">Họ</label>
+        <input type="text" id="lastName" name="lastName"><br><br>
+        
+        <label for="firstName">Tên</label>
+        <input type="text" id="firstName" name="firstName"><br><br>
+        
+        <label>Ngày sinh:</label>
+        Ngày <select id="day" name="day"></select>
+        Tháng <select id="month" name="month"></select>
+        Năm <select id="year" name="year"></select><br><br>
+        
+        <label>Giới tính</label>
+        <input type="radio" id="male" name="gender" value="Nam">
+        <label for="male">Nam</label>
+        <input type="radio" id="female" name="gender" value="Nữ">
+        <label for="female">Nữ</label><br><br>
+        
+        <label for="phone">Số điện thoại</label>
+        <input type="text" id="phone" name="phone"><br><br>
+        
+        <label>Sở thích</label>
+        <input type="checkbox" id="reading" name="hobbies" value="Đọc sách">
+        <label for="reading">Đọc sách</label>
+        <input type="checkbox" id="movies" name="hobbies" value="Xem phim">
+        <label for="movies">Xem phim</label>
+        <input type="checkbox" id="music" name="hobbies" value="Nghe nhạc">
+        <label for="music">Nghe nhạc</label>
+        <input type="checkbox" id="sports" name="hobbies" value="Đá bóng">
+        <label for="sports">Đá bóng</label><br><br>
+
+        <p>Khác: <input type="text" id="txt_khac" name="khac" size="20"><br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+
+    <script src="Bai1buoicuoi.js"></script>
+</body>
+</html>
